@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { API_PATH } from 'src/environments/environment';
+import { API_PATH} from '../environments/environment';
 import { Vendas } from './IMeiosPagamento';
 import { Observable } from 'rxjs';
 
